@@ -2,11 +2,11 @@
 
 > Điền nội dung này trước khi bắt đầu gán nhãn. Giữ lại các quyết định sau khi self-QC.
 
-## Định nghĩa lớp1
+## Định nghĩa lớp
 
 | Lớp | Định nghĩa của bạn | Ví dụ/điểm phân biệt |
 | --- | --- | --- |
-| `car` | | |
+| `car` |Xe ô tô cá nhân, gia đình và phương tiện hạng nhẹ chở người/hàng nhẹ. |Xe sedan, SUV, hatchback, taxi, xe bán tải. |
 | `truck` | | |
 | `bus` | | |
 | `van` | | |
