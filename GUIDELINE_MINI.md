@@ -2,7 +2,7 @@
 
 > Điền nội dung này trước khi bắt đầu gán nhãn. Giữ lại các quyết định sau khi self-QC.
 
-## Định nghĩa lớp
+## Định nghĩa lớp1
 
 | Lớp | Định nghĩa của bạn | Ví dụ/điểm phân biệt |
 | --- | --- | --- |
