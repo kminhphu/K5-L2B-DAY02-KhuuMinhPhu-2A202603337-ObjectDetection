@@ -25,5 +25,5 @@
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
 | `drive_007` |Mơ hồ với bus hoặc car	 |Gán nhãn bus | Tìm hiểu và biết được xe có từ 10 đến 16 chỗ ngồi là minibus |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_016` |Mơ hồ với car hoặc van |Không gán nhãn |Góc nhìn không đủ để kết luận loại xe |
+| `drive_045` |Xe bị khuất |Không gán nhãn |Bị che khuất hơn 70% |
