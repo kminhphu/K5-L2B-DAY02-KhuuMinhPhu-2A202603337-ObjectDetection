@@ -24,6 +24,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
+| `drive_007` |Mơ hồ với bus hoặc car	 |Gán nhãn bus | Tìm hiểu và biết được xe có từ 10 đến 16 chỗ ngồi là minibus |
 | `drive_...` | | | |
 | `drive_...` | | | |
