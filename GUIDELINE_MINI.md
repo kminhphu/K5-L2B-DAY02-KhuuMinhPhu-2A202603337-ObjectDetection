@@ -7,9 +7,9 @@
 | Lớp | Định nghĩa của bạn | Ví dụ/điểm phân biệt |
 | --- | --- | --- |
 | `car` |Xe ô tô cá nhân, gia đình và phương tiện hạng nhẹ chở người/hàng nhẹ. |Xe sedan, SUV, hatchback, taxi, xe bán tải. |
-| `truck` | | |
-| `bus` | | |
-| `van` | | |
+| `truck` |	Phương tiện chuyên dụng dùng để vận chuyển hàng hóa nặng hoặc kéo rơ-móoc. |	Xe tải chở hàng các loại, xe đầu kéo. |
+| `bus` |Phương tiện giao thông cỡ lớn chuyên chở nhiều hành khách. |Xe buýt đô thị, xe khách liên tỉnh cỡ lớn, minibus chở khách. |
+| `van` |Phương tiện thân liền khối dạng hình hộp, chuyên chở hàng hóa dung tích trung bình hoặc chở khách gia đình. |	Xe van, minivan |
 
 ## Quy tắc chung
 
