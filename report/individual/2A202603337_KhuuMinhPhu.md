@@ -4,11 +4,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Lớp:
-- Link repo bài làm:
+- Họ tên: Khưu Minh Phú
+- MSSV: 2A202603337
+- Email: phukhuu39@gmail.com
+- Lớp: L2B
+- Link repo bài làm: https://github.com/kminhphu/K5-L2B-DAY02-KhuuMinhPhu-2A202603337-ObjectDetection
 - Link Colab đã chạy:
 
 ## 2. Schema và mini guideline
@@ -17,7 +17,7 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 ## 3. Annotation và self-QC
 
-- Số file nhãn train:
+- Số file nhãn train: 50
 - Kết quả checker và lỗi đã xử lý:
 - Danh sách ít nhất 10 ảnh đã rà bằng mắt:
 - Lỗi bỏ sót/box/class phát hiện khi rà và cách sửa:
@@ -27,14 +27,14 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 | Chỉ số | Trước sửa | Sau sửa nếu có |
 |---|---:|---:|
-| TP | | |
-| FP | | |
-| FN | | |
-| Precision | | |
-| Recall | | |
-| F1 | | |
-| mean_iou_of_matches | | |
-| passed | | |
+| TP |375 | |
+| FP |265 | |
+| FN |278 | |
+| Precision |0.5859 | |
+| Recall |0.5743 | |
+| F1 |0.58 | |
+| mean_iou_of_matches |0.8726 | |
+| passed |false | |
 
 Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
 
@@ -59,7 +59,7 @@ Trả lời bốn câu hỏi cuối notebook:
 2. Nếu mAP50 cao nhưng mAP50–95 thấp, cần kiểm điều gì trên box?
 3. Lỗi class nào có thể liên quan guideline? Dữ kiện nào hỗ trợ nhận xét?
 4. Vì sao không dùng 10 ảnh eval để train? Vai trò validation của chúng trong notebook là gì?
-
+   Trả lời: Không dùng 10 ảnh eval để train là để tránh tình trạng overfitting. Vai trò validation của chúng trong notebook là để chấm điểm mô hình sau mỗi vòng học xem độ chính xác đến đâu, giúp notebook tự động dừng lại khi thấy mô hình bắt đầu học quá đà và tự động lưu lại file trọng số tốt nhất.
 ## 6. Khó khăn và cách xử lý
 
 | Bước/thời điểm | Lỗi quan sát | Cách đã thử | Kết quả/còn thiếu |
