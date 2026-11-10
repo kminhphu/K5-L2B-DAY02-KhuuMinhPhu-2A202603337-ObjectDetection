@@ -79,8 +79,8 @@ Trả lời: Không dùng 10 ảnh eval để train là để tránh tình trạ
 | Mini guideline và quyết định mơ hồ | định nghĩa lớp, quy tắc box, ít nhất ba case có lý do | 10 |
 | Gold-set annotation QC | `F1 = 0.58` và `mean IoU = 0.8726`| 5 |
 | Pipeline YOLO và phân tích | Colab chạy được, không dùng eval để train, có metrics/ảnh eval và nhận xét lỗi | 10 |
-Đối chiếu [RUBRIC.md](../../RUBRIC.md): phần nào đã có kết quả, phần nào còn thiếu hoặc chưa kiểm được. Không tự nhận hoàn thành bước chưa chạy.
 
+Đối chiếu [RUBRIC.md](../../RUBRIC.md): phần nào đã có kết quả, phần nào còn thiếu hoặc chưa kiểm được. Không tự nhận hoàn thành bước chưa chạy.
 ## 8. Công cụ AI và tài liệu tham khảo
 Gemini dùng ở bước gán nhãn để tìm hiểu về các loại xe.
 Ghi công cụ đã dùng, dùng ở bước nào và phần đã tự kiểm tra; không dùng thì ghi rõ. Liệt kê nguồn ngoài repo được sử dụng. Không ghi mật khẩu/token hoặc đính kèm gold train.
